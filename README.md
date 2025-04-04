@@ -4,7 +4,7 @@
 # The paper is here [HQGS](https://openreview.net/pdf?id=25Zlvl7JxW).
 
 This is the official code of HQGS.
-![main_fig](./kuangjia.png)
+![main_fig](./framework_5.png)
 
 ## Abstract
 3D Gaussian Splatting (3DGS) has shown promising results for Novel View Synthesis. However, while it is quite effective when based on high-quality images,its  performance declines as image quality degrades, due to lack of resolution, motion blur, noise, compression artifacts, or other factors common in real-world data
