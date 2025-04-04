@@ -17,7 +17,7 @@ achieves the best results across various degraded scenes.
 ## Requirements
 The environment is the same to 3DGS and SRGS
 
-## Dateset
+## Dataset
 Our method utilzes the LLFF and DeblurNeRF datasets, divided into the seen data for training and the unseen data for testing, and we construct a low-quality dataset by synthesizing a variety of degradations for all of them, and get the restored images by utilzing the existing restoration network.
 
 For the seen data, we use Sobel operator to get the edge map and concat, which is implemented in gradient.py. For the raw image, we implement concat via images_concat.py. This gives us two inputs to the ESFG.
