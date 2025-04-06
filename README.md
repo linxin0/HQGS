@@ -29,6 +29,7 @@ The rest of the training and testing comes from the original 3DGS algorithm.
     }
 
 ## Contact
+Thanks for these impressive works and their open-sourced code: [SRGS](https://arxiv.org/pdf/2404.10318), [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). 
 If you have any questions, please contact linxin@stu.scu.edu.cn
 
 
