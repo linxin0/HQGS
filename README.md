@@ -23,7 +23,7 @@ The rest of the training and testing comes from the original 3DGS algorithm.
 
     @inproceedings{HQGS,
       title={High-Quality Novel View Synthesis with Gaussian Splatting in Degraded Scene}, 
-      author={Xin Lin*, Shi Luo*, Xiaojun Shan, Xiaoyu Zhou, Chao Ren, Lu Qi, Ming-Hsuan Yang and Nuno Vasconcelos},
+      author={Xin Lin, Shi Luo, Xiaojun Shan, Xiaoyu Zhou, Chao Ren, Lu Qi, Ming-Hsuan Yang and Nuno Vasconcelos},
       booktitle={Proceedings of the International Conference on Learning Representation},
       year={2025}
     }
