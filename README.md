@@ -10,7 +10,7 @@ This is the official code of HQGS.
 regions in low-quality scenes, leading to the absence of Gaussian primitives inthose areas and resulting in loss of detail in the rendered images. To address this issue, we focus on leveraging edge structural information to provide additional guidance for 3DGS, enhancing its robustness. First, we introduce an edge semantic fusion guidance module that combines rich texture information from high-frequency edge-aware maps with semantic information from images. The fused features serve as prior guidance to capture detailed distribution across different regions, bringing more attention to areas with detailed edge information and allowing for a higher concentration of Gaussian primitives to be assigned to such areas. Additionally, we present a structural cosine similarity loss to complement pixel-level constraints, further improving the quality of the rendered images. Extensive experiments demonstrate that our method offers better robustness and achieves the best results across various degraded scenes.
 
 ## Requirements
-Our experiments is the same as 3DGS and SRGS.
+Our experimental environment is the same as 3DGS and SRGS.
 
 ## Dataset
 Our approach utilzes the LLFF and DeblurNeRF datasets, divided into the seen data used for training and the unseen data for testing, and we construct a low-quality dataset by synthesizing a variety of degraded qualities for all of them, and get the restored images by utilzing the existing restoration network.
