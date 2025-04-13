@@ -40,6 +40,7 @@ for filename in os.listdir(input_folder):
         features_tensor.append(grad)
 
 features_tensor = torch.stack(features_tensor, dim=0)
+# [the number of the training data, 3, H*W]
 features_tensor = features_tensor.view(30, 3, 504 * 378)
 features_tensor = F.adaptive_avg_pool1d(features_tensor, 1000).permute(0, 2, 1)
 
