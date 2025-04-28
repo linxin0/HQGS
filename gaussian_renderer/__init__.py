@@ -52,8 +52,7 @@ def render(viewpoint_camera, pc: GaussianModel, pipe, bg_color: torch.Tensor,pat
     if path != None:
        pc.features_test.load_state_dict(torch.load(path))
 
-    with torch.no_grad():
-        means3D = pc.get_test_features(pc.get_xyz)
+    means3D = pc.get_test_features(pc.get_xyz)
 
     means2D = screenspace_points
     opacity = pc.get_opacity
